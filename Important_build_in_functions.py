@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup
 import re
 
 #%%
-df_lfl = pd.read_csv(r'/Users/firatsoydinc/Desktop/Coding/Recommendation System /Book_csv/csv_files/cleaned_lfl_geocodes.csv')
+df_lfl = pd.read_csv(r'cleaned_lfl_geocodes.csv')
 df_lfl = df_lfl.rename(columns={'longitude' : 'latitude','latitude':'longitude'})
 
 
